@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #000000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    position:absolute;
+    width:100%;
+    z-index:10;
+    max-width:100%;
+}
+
+.cajaDeIcono {
+    background-color:#40ccec;
+    padding: 5px;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+  }
+
+i {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+p {
+    color: #ffffff;
+}
+
+.card {
+    background-color: #40ccec;
+    height: 380px;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.btn {
+    background-color: #40ccec;
+}
+
+footer {
+    background-color: #40ccec;
+}
+
+@media screen and (max-width:576px) {
+    .logoViajesChile {
+        width: 7%;
+    }
+    
+}
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .logoViajesChile {
+        width: 5%;
+    }
+    
+}
+
+@media screen and (min-width:992px){
+    .logoViajesChile {
+        width: 2%;
+    }
+    
+}
